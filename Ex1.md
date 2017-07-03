@@ -1,4 +1,4 @@
-= Building the Northwind Ontology =
+# Building the Northwind Ontology
 
 The Northwind dataset is a classical exemplar, widely used in relational database tutorials and courses.
 It contains the transactions, operational records and organization
@@ -6,11 +6,11 @@ information for a trading company (that order products from suppliers and then, 
 
 Your task is to turn the relational DB schema into an ontology.
 
-== Why? ==
+## Why?
 
 This is how a general-purpose knowledge graph is aggregated bit-by-bit: starting from a particular domain, and try to link the domain to other domains. For example, "employee", "region" and such can all find their corresponding entities in Freebase, DBPedia, ConceptNet etc.
 
-== Technical details ==
+## Technical details
 
 Here is the schema of the database:
 ![northwind_schema](https://cdn.rawgit.com/yatli/KnowledgeGraphTutorial/df4d564f/Northwind_Schema.png)
@@ -20,7 +20,7 @@ https://theaccessbuddy.wordpress.com/2011/07/03/northwind-database-explained/
 
 There are a dozen of tables involved here. Notably, due to the Entity-Relationship methodology used in relational databases, sometimes it requires multiple tables to represent one entity. When you want to gather the information, you join tables.
 
-== Tips ==
+## Tips and questions
 
 - The OWL reference documentation is your good friend: http://www.w3.org/TR/2012/REC-owl2-primer-20121211/
 - Don't worry about the detailed syntax, datatypes, XSD, etc. Write what you think that best captures your ideas.
